@@ -1,5 +1,3 @@
 FROM alpine:latest
 RUN apk add --update nginx
-COPY activesupport-4.2.1.gem /ruby/gems/
 CMD ["nginx", "-g", "daemon off;"]
-COPY utils.js /usr/share/nginx/html/js/
