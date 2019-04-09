@@ -1,1 +1,1 @@
-# alivsts
+# centos
